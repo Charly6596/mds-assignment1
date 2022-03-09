@@ -3,6 +3,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test cases:
+ * factorial 0 -> 1
+ * factorial 1 -> 1
+ * factorial 2 -> 2
+ * factorial 3 -> 4
+ * factorial 720 -> 6
+ * factorial negative number
+ **/
 class FactorialTest {
     private Factorial factorial;
 
