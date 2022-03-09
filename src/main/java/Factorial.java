@@ -5,12 +5,16 @@
  */
 public class Factorial {
     public int compute(int n) {
+        int result = 1;
         if (n < 0) {
             throw new RuntimeException();
         }
-        if (n == 0) {
-            return 1;
+
+        while(n > 1){
+            result *= n;
+            n--;
         }
-        return n * compute(n - 1);
+
+        return result;
     }
 }
